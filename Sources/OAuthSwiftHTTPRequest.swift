@@ -7,11 +7,7 @@
 //
 
 import Foundation
-#if os(iOS)
-#if !OAUTH_APP_EXTENSIONS
 import UIKit
-#endif
-#endif
 
 let kHTTPHeaderContentType = "Content-Type"
 
